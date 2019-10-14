@@ -9,11 +9,15 @@ print()
 continua = True
 
 while continua:
-    num = input("Numero de lados: ")
-    if int(num) == 0:
-        continua = False
-    else:
-        print(dado(num))
+    num = input("Numero de dados: ")
+    try:
+        val = int(num)
+        if val == 0:
+            continua = False
+        else:
+            print(dado(val))
+    except ValueError as e:
+        print("Entrada não é um número\n")
 
 
 
