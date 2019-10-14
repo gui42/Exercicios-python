@@ -13,12 +13,16 @@ def randomWord():
 
 def letterList(word):
     x = 0
-    letterL = {}
-    for x in range (0,len(word)):
+    letterL =[] 
+    size = len(word)
+    for x in range (0,size):
         letter = str(word[x])
-        letterL[letter] = False
-        x = x +1
+        letterA = {letter: False}
+        letterL.append(letterA)
+ #       letterL[letter] = False
     
+   
+    print(letterL)
     return letterL
 
 def printWord(letterL):
@@ -27,13 +31,19 @@ def printWord(letterL):
         if letterL[x]:
             wword = str(wword)+str(x.upper())
         else:
-            wword = str(wword)+"X"
+            wword = str(wword)+"*"
     print(wword)
 
 def checkLetter(letter, letterL):
     for x in letterL:
         if x == letter:
-            letterL[x] = True
+            letterL[x] = True 
     return letterL
 
-    
+def checkVictory(letterL):
+    for x in letterL:
+        if not letterL[x]:
+            return False
+
+    return True
+            
