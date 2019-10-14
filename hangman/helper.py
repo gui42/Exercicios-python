@@ -8,6 +8,7 @@ def openList():
 def randomWord():
     lines = openList()
     i = len(lines)
+    i = i-1
     a =random.randint(0,i)
     return lines[a].lower()
 
@@ -19,31 +20,29 @@ def letterList(word):
         letter = str(word[x])
         letterA = {letter: False}
         letterL.append(letterA)
- #       letterL[letter] = False
-    
-   
-    print(letterL)
     return letterL
 
 def printWord(letterL):
     wword = ""
     for x in letterL:
-        if letterL[x]:
-            wword = str(wword)+str(x.upper())
-        else:
-            wword = str(wword)+"*"
+        for y in x:
+            if x[y]: 
+                wword = str(wword)+str(y)
+            else:
+                wword = str(wword)+"*"
     print(wword)
 
+           
 def checkLetter(letter, letterL):
     for x in letterL:
-        if x == letter:
-            letterL[x] = True 
+        for y in x:
+            if y == letter:
+                x[y] = True
     return letterL
 
 def checkVictory(letterL):
     for x in letterL:
-        if not letterL[x]:
-            return False
-
+        for y in x:
+            if not x[y]:
+                return False
     return True
-            
