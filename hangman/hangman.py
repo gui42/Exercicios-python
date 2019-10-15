@@ -33,6 +33,6 @@ while not victory and hp > 0 :
         hp -= 1
 
 if victory:
-    print("Victory!")
+    print("Victory!\nYou had "+str(hp)+" guesses left!")
 else:
     print("You loose, the word was "+str(word))

@@ -1,10 +1,13 @@
 import random
 
 def openList():
-    with open('lista.txt') as f:
-        lines = f.read().splitlines()
-    return lines
-
+	try: 
+	    with open('lista.txt') as f:
+	        lines = f.read().splitlines()
+	    return lines
+	except FileNotFoundError as e:
+		print("File not found")
+     
 def randomWord():
     lines = openList()
     i = len(lines)
