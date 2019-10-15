@@ -30,13 +30,13 @@ def printWord(letterL):
                 wword = str(wword)+str(y)
             else:
                 wword = str(wword)+"*"
-    print(wword)
+    print("\n"+wword+"\n")
 
            
 def checkLetter(letter, letterL):
     for x in letterL:
         for y in x:
-            if y == letter:
+            if y.lower() == letter.lower():
                 x[y] = True
     return letterL
 
@@ -46,3 +46,10 @@ def checkVictory(letterL):
             if not x[y]:
                 return False
     return True
+
+def checkHP(letter, letterL):
+    for x in letterL:
+        for y in x:
+            if letter.lower() == y.lower():
+                return True
+    return False
