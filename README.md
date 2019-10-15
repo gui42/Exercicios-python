@@ -10,4 +10,4 @@ A ideia aqui é ir fazendo os seguintes exercícios a medida que eu quero:
 
 	TextBased Adventure Game
 
-	Hangman
+	Hangman [OK]
