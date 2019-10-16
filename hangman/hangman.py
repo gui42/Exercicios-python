@@ -18,7 +18,7 @@ while not victory and hp > 0 :
     print("You've tried this letters so far:"+allletters)
     letter = input("Enter a guess: ")
    
-   #lista as tentativas
+   #update na tentativas
     allletters=allletters+" "+letter
     
    #funções verificam se a letra esta na palavra, depois imprimi a palavra com as alterações se necessário e verifica se a condição de vitória foi atingida
