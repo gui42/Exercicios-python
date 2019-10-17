@@ -37,6 +37,5 @@ def changeMad(userin, varList, mad):
             if item in line:
                 index = varList.index(item)
                 line=(line.replace(item, userin[index]))
-                varList.pop(index)
-                userin.pop(index)
+                varList[index] ="done"
         print(line)
