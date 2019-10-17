@@ -6,7 +6,7 @@ A ideia aqui é ir fazendo os seguintes exercícios a medida que eu quero:
 
 	Guess the Number [OK]
 
-	Mad Libs Generator
+	Mad Libs Generator [falta pouco lol]
 
 	TextBased Adventure Game
 
