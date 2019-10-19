@@ -1,4 +1,4 @@
 Dear [RELATIVE],
-I am having a(n) [ADJECTIVE] time at camp. The counselour is [ADJECTIVE] and the food is [ADJECTIVE]. I met [PERSON_ROOM] and we became [ADJECTIVE] friends. Unfortunately, [PERSON_ROOM] is [ADJECTIVE] and I [VERB_ED] my [BODY_PART] so we couldn`t go [VERB_ING] like everybody else. I need more [NOUM_P] and a [NOUM] sharpener, so please [ADVERB] [VERB] more when you [VERB] back.
-Your [RELATIVE],
+I am having a(n) [ADJECTIVE1] time at camp. The counselour is [ADJECTIVE2] and the food is [ADJECTIVE3]. I met [PERSON_ROOM] and we became [ADJECTIVE4] friends. Unfortunately, [PERSON_ROOM] is [ADJECTIVE5] and I [VERB_ED] my [BODY_PART] so we couldn`t go [VERB_ING] like everybody else. I need more [NOUM_P] and a [NOUM] sharpener, so please [ADVERB] [VERB] more when you [VERB] back.
+Your [RELATIVE1],
 [PERSON_ROOM]	
